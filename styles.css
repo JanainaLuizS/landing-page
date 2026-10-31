@@ -352,3 +352,57 @@ body {
         
     }
 }
+.tutoriais {
+    padding: 4rem 2rem;
+    background-color: #f9fafb;
+    text-align: center;
+    margin-bottom: 0.5rem;
+   
+}
+
+.tutoriais h2 {
+    font-size: 2rem;
+    color: #111827;
+    margin-bottom: 3rem;
+}
+
+.tutorial-descricao {
+    margin-bottom: 35px;
+}
+
+.tutorial-grid {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.tutorial-card {
+
+    background-color: #f9fafb;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04);
+    max-width: 300px;
+    transition: transform 0.3s;
+    overflow: hidden;
+}
+
+
+
+.tutorial-card h3 {
+    color: #4f46e5;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    margin: 1rem 1rem 0.5rem 0.5rem;
+}
+
+
+
+
+.tutorial-card p {
+    color: #4B5563;
+    margin: 0 1rem 1.5rem;
+    font-size: 0.95rem;
+
+}
